@@ -62,7 +62,7 @@ builder.pl - "builds" source files into built assets
 builder.pl [options]
 
   Options:
-    -l,--langs=en,es      Provide list of languages to build.
+    -l,--langs=en,es      Specify a list of languages to build.
                           default: builds all the langauges if not specified
     -s,--srcdir=./src     Specify the source directory. default: ./src
     -o,--outdir=./build   Specify the output directory. default: ./build
@@ -75,7 +75,7 @@ builder.pl [options]
 
 =item B<-l,--langs>
 
-Provide a list of langauges to build
+Specify a list of langauges to build
 
 Eg.
     builder.pl --langs=en,es  # builds en and es
